@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budgeting</title>
+    <link rel="stylesheet" href="styleA.css" />
+  </head>
+  <h1 class="what_taital">Budgeting</h1>
+  <body>
+
+
+    <main>
+      <header>
+        <div>
+          <h5>Total Balance</h5>
+          <span id="balance">R0.00</span>
+        </div>
+        <div>
+          <h5>In</h5>
+          <span id="income">R0.00</span>
+        </div>
+        <div>
+          <h5>Out</h5>
+          <span id="expense">R0.00</span>
+        </div>
+      </header>
+
+      <section>
+        <h3>Transactions</h3>
+        <ul id="transactionList"></ul>
+        <div id="status"></div>
+      </section>
+
+      <section>
+        <h3>Add Transaction</h3>
+
+        <form id="transactionForm">
+          <div>
+            <label for="type">
+              <input type="checkbox" name="type" id="type" />
+              <div class="option">
+                <span>Expense</span>
+                <span>Income</span>
+              </div>
+            </label>
+          </div>
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" required />
+          </div>
+          <div>
+            <label for="amount">Amount</label>
+            <input
+              type="number"
+              name="amount"
+              value="0"
+              min="0.01"
+              step="0.01"
+              required
+            />
+          </div>
+          <div>
+            <label for="date">Date</label>
+            <input type="date" name="date" required />
+          </div>
+          <button class="btn btn-primary btn-lg" type="submit">Add Item</button>
+        </form>
+      </section>
+    </main>
+    <script src="scriptA.js"></script>
+  </body>
+</html>
