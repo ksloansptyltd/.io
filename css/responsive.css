@@ -386,7 +386,7 @@ ul.link li {
 .header_right { width: 100%; padding-top: 30px; }
 .services_section { background: #ffffff; padding-bottom: 0px; margin-top: 0px; }
 .services_taital { font-size: 24px; }
-.image_1 { padding-top: 30px; }
+.image_1 { padding-top: 30px; width:75%; }
 .what_we_do_section_2 { margin-top: 0px; }
 .box_main { margin-top: 40px; }
 .project_main { padding-top: 0; }
