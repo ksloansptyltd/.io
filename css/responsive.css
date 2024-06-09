@@ -379,14 +379,14 @@ ul.link li {
 .logo { width: 85%; }
 .banner_taital { font-size: 30px; padding-top: 30px; }
 .banner_main { padding-left: 15px; }
-.banner_img {width:100%; }
+.banner_img { height:100%; }
 .btn_main { padding-top: 0px; }
 .contact_bt { width: 90px; margin-left: 10px; }
 .more_bt { width: 90px;}
 .header_right { width: 100%; padding-top: 30px; }
 .services_section { background: #ffffff; padding-bottom: 0px; margin-top: 0px; }
 .services_taital { font-size: 24px; }
-.image_1 { padding-top: 30px; width:75%; }
+.image_1 { padding-top: 30px; height:75%; }
 .what_we_do_section_2 { margin-top: 0px; }
 .box_main { margin-top: 40px; }
 .project_main { padding-top: 0; }
