@@ -1,9 +1,8 @@
 const transactions = JSON.parse(localStorage.getItem("transactions")) || [];
 
-const formatter = new Intl.NumberFormat("en-US", {
+const formatter = new Intl.NumberFormat("en-ZA", {
   style: "currency",
-  currency: "USD",
-  signDisplay: "always",
+  currency: "ZAR",
 });
 
 const list = document.getElementById("transactionList");
