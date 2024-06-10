@@ -41,7 +41,7 @@ function renderList() {
   }
 
   transactions.forEach(({ id, name, amount, date, type }) => {
-    const sign = "income" === type ? 1 : -1;
+    const sign = "income" === type ? 1 : 1;
 
     const li = document.createElement("li");
 
