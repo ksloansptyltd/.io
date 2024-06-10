@@ -27,7 +27,7 @@ function updateTotal() {
 
   balance.textContent = formatter.format(balanceTotal).substring(1);
   income.textContent = formatter.format(incomeTotal);
-  expense.textContent = formatter.format(expenseTotal * -1);
+  expense.textContent = formatter.format(expenseTotal * 1);
 }
 
 function renderList() {
@@ -40,7 +40,7 @@ function renderList() {
   }
 
   transactions.forEach(({ id, name, amount, date, type }) => {
-    const sign = "income" === type ? 1 : -1;
+    const sign = "income" === type ? 1 : 1;
 
     const li = document.createElement("li");
 
