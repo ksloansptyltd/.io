@@ -3,7 +3,7 @@ const transactions = JSON.parse(localStorage.getItem("transactions")) || [];
 const formatter = new Intl.NumberFormat("en-ZA", {
   style: "currency",
   currency: "ZAR",
-  signDisplay: "always",
+  
 });
 
 const list = document.getElementById("transactionList");
@@ -28,7 +28,7 @@ function updateTotal() {
 
   balance.textContent = formatter.format(balanceTotal).substring(1);
   income.textContent = formatter.format(incomeTotal);
-  expense.textContent = formatter.format(expenseTotal*-1);
+  expense.textContent = formatter.format(expenseTotal);
 }
 
 function renderList() {
