@@ -51,8 +51,8 @@ form{
 }
 
 .slider::-moz-range-thumb {
-  width:5px;
-  height: 5px;
+  width:3px;
+  height: 3px;
   border: 0;
   border-radius: 50%;
   background:  #dc3545;
@@ -121,8 +121,8 @@ form{
 }
 
 .slider2::-moz-range-thumb {
-  width:5px;
-  height: 5px;
+  width:3px;
+  height: 3px;
   border: 0;
   border-radius: 50%;
   background:  #dc3545;
