@@ -464,7 +464,7 @@ button {
     width: 100%;
     float: left;
     background-color: #1b5a8d;
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 30px 0px;
 }
 .box_main:hover{
