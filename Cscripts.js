@@ -1,3 +1,3 @@
 $('#myButton').click(function() {
-	$(this).text('Refresh 🔄');
+	$(this).text('Update Results');
 });
