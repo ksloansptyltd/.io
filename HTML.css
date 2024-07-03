@@ -70,7 +70,7 @@ body {
 
   .box div:nth-child(9) {
     top: 60%;
-    left: 20%;
+    left: 10%;
     animation: animate 25s linear infinite;
   }
 
