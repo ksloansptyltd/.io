@@ -15,7 +15,7 @@ $(function() {
 	var Calc1 = function(options) {
 		$.extend(this, options, {
 			currency: '',
-			amount: 5000
+			amount: 5000.00
 		});
 		this.cache();
 		this.variables();
@@ -244,7 +244,7 @@ new Chart("myChart", {
 
 $(function() {
 	var app = new Calc({days: 34});
-	var app2 = new Calc({amount: 5000})
+	var app2 = new Calc({amount: 5000.00})
 
 });
 
