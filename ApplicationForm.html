@@ -150,7 +150,7 @@
                     <div class="col-md-4 inputGroupContainer">
                     <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                    <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+                    <input  name="first_name" placeholder="First Name" class="form-control" type="text" required>
                       </div>
                     </div>
                   </div>
@@ -162,7 +162,7 @@
                       <div class="col-md-4 inputGroupContainer">
                       <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                    <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+                    <input name="last_name" placeholder="Last Name" class="form-control" type="text" required>
                       </div>
                     </div>
                   </div>
@@ -173,7 +173,7 @@
                       <div class="col-md-4 inputGroupContainer">
                       <div class="input-group">
                     <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-                    <input name="id_number" placeholder="ID Number" class="form-control"  type="text">
+                    <input name="id_number" placeholder="ID Number" class="form-control"  type="text" required>
                       </div>
                     </div>
                   </div>
@@ -200,7 +200,7 @@
                       <div class="col-md-4 inputGroupContainer">
                       <div class="input-group">
                           <span class="input-group-addon"><i class="glyphicon glyphicon-baby-formula"></i></span>
-                    <input name="No_Of_Dependencies" placeholder="No. of Dependencies" min="0" class="form-control"  type="number">
+                    <input name="No_Of_Dependencies" placeholder="No. of Dependencies" min="0" class="form-control"  type="number" required>
                       </div>
                     </div>
                   </div>
@@ -211,7 +211,7 @@
                       <div class="col-md-4 inputGroupContainer">
                       <div class="input-group">
                           <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-                    <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+                    <input name="email" placeholder="E-Mail Address" class="form-control"  type="text" required>
                       </div>
                     </div>
                   </div>
@@ -224,7 +224,7 @@
                       <div class="col-md-4 inputGroupContainer">
                       <div class="input-group">
                           <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                    <input name="phone" placeholder="(000)-000-0000" class="form-control" type="text">
+                    <input name="phone" placeholder="(000)-000-0000" class="form-control" type="text" required>
                       </div>
                     </div>
                   </div>
@@ -240,7 +240,7 @@
                       <div class="col-md-4 inputGroupContainer">
                       <div class="input-group">
                           <span class="input-group-addon"><i class="fa fa-money"></i></span>
-                    <input name="Loan Amount" placeholder="Loan Amount" class="form-control"  type="number" min="500" max="8000" step="50">
+                    <input name="Loan Amount" placeholder="Loan Amount" class="form-control"  type="number" min="500" max="8000" step="50" required>
                       </div>
                     </div>
                   </div>
@@ -251,7 +251,7 @@
                       <div class="col-md-4 inputGroupContainer">
                       <div class="input-group">
                           <span class="input-group-addon"><i class="glyphicon glyphicon-calendar"></i></span>
-                    <input name="Loan Period" placeholder="Loan Period" class="form-control"  type="number" min="1" max="6" step="1">
+                    <input name="Loan Period" placeholder="Loan Period" class="form-control"  type="number" min="1" max="6" step="1" required>
                       </div>
                   </div>
                   </div>
@@ -261,10 +261,10 @@
                       <div class="col-md-4 inputGroupContainer">
                       <div class="input-group">
                           <span class="input-group-addon"><i class="fa fa-money"></i></span>
-                    <input name="Groceries" placeholder="Groceries" class="form-control" type="number" min="0" step="50">
-                    <input name="Housing" placeholder="Housing" class="form-control" type="number" min="0" step="50">
-                    <input name="Transport" placeholder="Transport" class="form-control" type="number" min="0" step="50">
-                    <input name="Water & Electricity" placeholder="Water & Electricity" class="form-control" type="number" min="0" step="50">
+                    <input name="Groceries" placeholder="Groceries" class="form-control" type="number" min="0" step="50" required>
+                    <input name="Housing" placeholder="Housing" class="form-control" type="number" min="0" step="50" required>
+                    <input name="Transport" placeholder="Transport" class="form-control" type="number" min="0" step="50" required>
+                    <input name="Water & Electricity" placeholder="Water & Electricity" class="form-control" type="number" min="0" step="50" required>
 
                       </div>
                     </div>
@@ -281,11 +281,11 @@
                       <div class="input-group">
 
                           <label for="ID">Select a ID:</label><br>
-                          <input type="file" id="ID" name="ID" placeholder="ID"><br>
+                          <input type="file" id="ID" name="ID" placeholder="ID" required><br>
                           <label for="Payslip">Select a Payslip:</label><br>
-                          <input type="file" id="Payslip" name="Payslip" placeholder="Payslip"><br>
+                          <input type="file" id="Payslip" name="Payslip" placeholder="Payslip" required><br>
                           <label for="Statement">Select a 6 Months Bank Statement:</label><br>
-                          <input type="file" id="Statement" name="Bank Statement" placeholder="Bank Statement">
+                          <input type="file" id="Statement" name="Bank Statement" placeholder="Bank Statement" required>
                       </div>
                     </div>
                   </div>
